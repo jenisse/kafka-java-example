@@ -35,17 +35,31 @@ Example ---> C (ejemplo= C:\tools\kafka_2.12-2.0.0\kafka_2.12-2.0.0)
 ```
 
 4- Start Zookeper Server in default server 2181
-open a terminal on the directory where the Kafka binaries are
-run the following command .\bin\windows\zookeper-server-start.bat .\config\zookeeper.properties
 
-4- Start Kafka Server in default server 9092
 open a terminal on the directory where the Kafka binaries are
-run the following command .\bin\windows\kafka-server-start.bat .\config\server.properties
 
-5- Create a topic
+run the following command 
+```
+.\bin\windows\zookeper-server-start.bat .\config\zookeeper.properties
+```
+
+5- Start Kafka Server in default server 9092
+
 open a terminal on the directory where the Kafka binaries are
-run the following command .\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
 
+run the following command 
+```
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+```
+
+6- Create a topic
+
+open a terminal on the directory where the Kafka binaries are
+
+run the following command 
+```
+.\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
+```
 
 
 ## Running 
