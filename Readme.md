@@ -17,8 +17,11 @@ Kafka binaries
 A step by step series of examples that tell you how to get a development env running
 
 1- Set Java_HOME and Path variables
+
 ```
 JAVA_HOME = C:\Program Files\Java\jre1.8.0_172
+```
+
 ```
 Path =+ %JAVA_HOME%\bin 
 ```
