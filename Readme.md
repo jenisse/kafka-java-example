@@ -9,6 +9,7 @@ These instructions will get you a copy of the project set up and running on your
 ### Prerequisites
 
 Java (jre)
+
 Kafka binaries 
 
 
@@ -52,5 +53,5 @@ run the following command .\bin\windows\kafka-topics.bat --create --zookeeper lo
 With both servers running run the maven project
 
 
-### And you will se that is a damn socket!!!!!!
+### And you will see that is a damn socket!!!!!!
 
